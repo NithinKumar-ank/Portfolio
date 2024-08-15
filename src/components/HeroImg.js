@@ -3,10 +3,10 @@ import "./HeroImgStyles.css";
 import {Link} from "react-router-dom";
 import deve7 from "../assets/deve7.jpg";
 
-import resume from "../Resume-Folder/Nithin Kumar React resume.pdf"
+import resume from "../Resume-Folder/Nithin_Kumar_React_resume.pdf" ;
 
 
-import React from 'react'
+import React from 'react';
 
 
 const HeroImg = () => {
@@ -26,8 +26,9 @@ const HeroImg = () => {
          
 
             <div className="content">
-                <p>HI, I'M NITHIN KUMAR</p>
+                <p>Hi, I'M NITHIN KUMAR</p>
                 <h1>React Developer</h1>
+                
                
                 <div>
                     <Link to="/project" className="btn">Projects</Link>
